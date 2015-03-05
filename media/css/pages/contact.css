@@ -1,0 +1,122 @@
+/*** Defaults ***/
+
+.heading-divider {
+	border-bottom: 1px #ed1c24 solid;
+	padding-bottom: 5px;
+}
+
+/*** End defaults ***/
+
+/*** Contact details ***/
+
+.contact-details {
+	float: left;
+	height: 340px;
+	width: 240px;
+}
+
+.contact-details h3 {
+	margin-top: 25px;
+}
+
+.contact-details p {
+	margin: 0;
+	padding: 0;
+}
+
+/*** End contact details ***/
+
+/*** Google map ***/
+
+.google-map {
+	float: right;
+	margin: 20px 0;
+}
+
+/*** End google map ***/
+
+/*** Email contacts ***/
+
+.email-contacts {
+	clear: both;
+}
+
+.email-contacts p {
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+
+/*** End email contacts ***/
+
+/*** Directions ***/
+
+.directions p {
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+.directions h4 {
+	margin: 0;
+	padding: 0;
+}
+
+/*** End directions ***/
+
+/*** Social media ***/
+
+.social-media {
+	margin-bottom: 15px;
+}
+
+.social-media ul {
+	height: 20px;
+	list-style: none;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+.social-media ul li {
+	float: left;
+	height: 20px;
+	margin: 0 2px;
+	width: 70px;
+}
+
+.social-media ul li a {
+	background: url('./../../../media/gfx/pages/contact/social-media-sprite.png') no-repeat;
+	display: block;
+	height: 20px;
+	overflow: hidden;
+	text-indent: -70px;
+	width: 70px;
+}
+
+.social-media ul li a:hover {
+	background-position-y: -20px;
+}
+
+.social-media ul li .facebook {
+	background-position: 0 0;
+}
+
+.social-media ul li .twitter {
+	background-position: -70px 0;
+}
+
+.social-media ul li .youtube {
+	background-position: -140px 0;
+}
+
+.social-media p {
+	margin-top: 5px;
+}
+
+/*** End social media ***/
+
+/*** Legal ***/
+
+.legal p {
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+
+/*** End legal ***/

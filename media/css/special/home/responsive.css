@@ -1,0 +1,118 @@
+/* - NAVIGATION ------------------------------------------------------------- */
+@media only screen and (max-width: 991px) {
+
+
+	/* - HEADER ------------------------------------------------------------- */
+	header h1 {
+		width: 50%;
+	}
+
+
+	/* - NAVIGATION --------------------------------------------------------- */
+	header nav {
+		background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.70);
+		margin-top: 40px;
+		position: absolute;
+		width: 100%;
+	}
+
+
+	/* - SOCIAL MEDIA ------------------------------------------------------- */
+	header .social-media {
+		width: 50%;
+	}
+
+
+}
+
+
+/* - MOBILE ----------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+
+	
+	/* - NAVIGATION --------------------------------------------------------- */
+	header nav {
+		height: /*80*/40px;
+	}
+	header nav .navigation {
+		height: /*80*/40px;
+		width: /*240*/320px;
+	}
+	header nav .navigation li {
+		padding: 0;
+		text-align: center;
+		width: 80px
+	}
+	header nav .navigation > li:hover .sub-navigation {
+		display: none !important;
+	}
+
+
+	/* - COVER NAVIGATION --------------------------------------------------- */
+	.covers-nav-wrapper {
+		display: none;
+	}
+	.covers-nav-wrapper ul {
+		margin: 0;
+	}
+
+
+	/* - COVER ARROWS ------------------------------------------------------- */
+	.covers-arrows {
+		display: none;
+	}
+
+
+	/* - COVER DATA --------------------------------------------------------- */
+	#covers-data {
+		display: none;
+	}
+
+
+	/* - FOOTER ------------------------------------------------------------- */
+	footer {
+		font-size: 9px;
+	}
+
+
+}
+
+
+/* - WIDE MOBILE ------------------------------------------------------------ */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+	/* - COVER DATA --------------------------------------------------------- */
+	#covers-data {
+		bottom: -60px;
+		display: block;
+		position: fixed;
+	}
+	#covers-data h3, 
+	#covers-data h4 {
+		display: none;
+	}
+
+
+	/* - COVER NAVIGATION --------------------------------------------------- */
+	.covers-nav-wrapper {
+		display: block;
+		bottom: 35px;
+		margin: 0 0 0 15px;
+	}
+
+
+	/* - COVER ARROWS ------------------------------------------------------- */
+	.covers-arrows {
+		display: none;
+	}
+
+
+	/* - FOOTER ------------------------------------------------------------- */
+	footer {
+		font-size: 9px;
+	}
+
+
+}

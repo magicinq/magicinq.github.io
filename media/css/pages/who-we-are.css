@@ -1,0 +1,84 @@
+/* - DEFAULTS --------------------------------------------------------------- */
+.heading-divider {
+	border-bottom: 1px #ED1C24 solid;
+	padding-bottom: 5px;
+}
+
+
+/* - STRAPLINE -------------------------------------------------------------- */
+.strapline {
+	color: #ED1C24;
+	font-size: 50px;
+	font-weight: 300;
+	margin: 20px 0;
+	padding: 0;
+}
+
+
+/* - KEY FACTS -------------------------------------------------------------- */
+.keyfacts {
+	padding-left: 15px;
+	margin-bottom: 30px;
+}
+.keyfacts li {
+	font-weight: 700;
+	line-height: 20px;
+}
+
+
+/* - INSIGHT ---------------------------------------------------------------- */
+.insight {
+	margin: 20px 0 30px;
+}
+
+
+/* - EXECUTIVES ------------------------------------------------------------- */
+.executives-list-container {
+	list-style: none;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+.executives-list-container li {
+	float: left;
+	margin: 0 0 0 16px;
+	width: 230px;
+}
+.executives-list-container li h3 {
+	color: #181818;
+	font-weight: 700;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+.executives-list-container li h4 {
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+}
+.executives-list-container li p {
+	color: #000;
+}
+.executives-list-container .avatar {
+	height: 116px;
+	width: 116px;
+}
+
+
+/* - FEATURES --------------------------------------------------------------- */
+.features {
+	clear: both;
+	padding: 20px 0 0;
+}
+
+
+/* - MADE IN CREATIVE UK BADGE ---------------------------------------------- */
+.micuk {
+	background: url('/media/gfx/pages/who-we-are/made-in-creative-uk-badge.png');
+	bottom: 40px;
+	display: block;
+	height: 113px;
+	overflow: hidden;
+	position: absolute;
+	right: 60px;
+	text-indent: -120px;
+	width: 96px;
+}

@@ -1,0 +1,25 @@
+/* - HEADER ----------------------------------------------------------------- */
+header {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80101011,endColorstr=#80101011);
+	zoom: 1;
+}
+
+
+/* - COVERS DATA ------------------------------------------------------------ */
+#covers-data .title {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80101011,endColorstr=#80101011);
+	zoom: 1;
+}
+#covers-data .sub-title {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80101011,endColorstr=#80101011);
+	zoom: 1;
+}
+
+
+/* - FOOTER ----------------------------------------------------------------- */
+footer {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80101011,endColorstr=#80101011);
+	zoom: 1;
+}

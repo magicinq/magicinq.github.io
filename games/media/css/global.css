@@ -1,0 +1,608 @@
+/* - DEFAULT RESET ---------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+
+/* - HTML5 RESET ------------------------------------------------------------ */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* - DEFAULTS --------------------------------------------------------------- */
+html {
+	font-size: 11px;
+	overflow-y: scroll;
+}
+body {
+	background: #F1F1F1;
+	color: #181818;
+	font-family: 'Open Sans', Tahoma, Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.35;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: none;
+}
+
+
+/* - LINKS DEFAULTS --------------------------------------------------------- */
+a {
+	color: #333;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* - TEXT SELECTION --------------------------------------------------------- */
+::-moz-selection {
+    background: #333;
+	color: #FFF;
+    text-shadow: none;
+}
+::selection {
+    background: #333;
+	color: #FFF;
+    text-shadow: none;
+}
+
+
+/* - CLOSURE ---------------------------------------------------------------- */
+.closure {
+	background: #454545;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	padding: 10px 0;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: 100;
+}
+
+
+/* - HEADER ----------------------------------------------------------------- */
+header {
+	background: rgb(254, 254, 254);
+	border-top: 8px #EB2126 solid;
+	-webkit-box-shadow: 0 1px 4px 1px rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 4px 1px rgba(0, 0, 0, .2);
+	min-height: 112px;
+	overflow: hidden;
+	position: fixed;
+	/*top: 44px;*/
+	width: 100%;
+	z-index: 100;
+}
+header .ident {
+	background-image: url('./../../media/gfx/logo.png');
+	background-size: 100% 100%;
+	display: block;
+	float: left;
+	height: 67px;
+	margin: 23px 0 0 30px;
+	overflow: hidden;
+	text-indent: -90px/*-70px*/;
+	width: 67px;
+}
+header nav {
+	float: right;
+	height: 40px;
+	margin: 36px 5px 36px 0;
+}
+header #mobile-handle {
+	background-image: url('./../../media/gfx/mobile-handle.png');
+	background-size: 100% 100%;
+	display: none;
+	float: right;
+	height: 30px;
+	margin: 41px 10px 0 0;
+	overflow: hidden;
+	text-indent: -50px;
+	width: 30px;
+}
+header nav ul {
+	height: 40px;
+}
+header nav ul li {
+	float: left;
+}
+header nav ul li a {
+	display: block;
+	font-size: 115%;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 1px;
+	padding: 0 7px;
+}
+header .made-in-ident {
+	background-image: url('./../../media/gfx/made-in-creative-pakistan.png');
+	background-size: 100% 100%;
+	display: block;
+	float: right;
+	height: 67px;
+	margin: 23px 5px 0 0;
+	overflow: hidden;
+	text-indent: -160px/*-140px*/;
+	width: 67px;
+}
+header .divisional {
+	color: #777;
+	font-size: 10px;
+	position: absolute;
+	right: 82px;
+	top: 80px;
+	width: 203px/*200px*/;
+}
+header .divisional:hover {
+	color: #181818;
+	text-decoration: none;
+}
+header .divisional em {
+	background-image: url('./../../media/gfx/game-turbine-logo.png');
+	background-size: 100% 200%;
+	float: right;
+	height: 12px;
+	margin-top: -1px;
+	overflow: hidden;
+	text-indent: -150px;
+	width: 105px/*136px*/;
+}
+header .divisional:hover em {
+	background-position: 0 -12px;
+}
+
+
+/* - CONTAINER -------------------------------------------------------------- */
+.container {
+	padding-bottom: 30px;
+	padding-top: 120px/*164px*/;
+	width: 100%;
+}
+
+
+/* - FOOTER ----------------------------------------------------------------- */
+footer {
+	clear: both;
+	min-height: 30px;
+}
+footer .surround {
+	background: #FFF;
+	bottom: 0;
+	-webkit-box-shadow: 0 -3px 4px -2px rgba(0, 0, 0, .2);
+	box-shadow: 0 -3px 4px -2px rgba(0, 0, 0, .2);
+	left: 0;
+	position: fixed;
+	min-height: 30px;
+	right: 0;
+	z-index: 100;
+}
+footer .surround p {
+	color: #666;
+	font-size: 0.8em;
+	line-height: 30px;
+	text-align: center;
+}
+footer .surround .social {
+	position: absolute;
+	height: 30px;
+	margin-top: -15px;
+	top: 50%;
+	right: 0;
+	width: 60px;
+	z-index: 101;
+}
+footer .surround .social li {
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+footer .surround .social a {
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	text-indent: -60px;
+	width: 30px;
+}
+footer .surround .social .facebook {
+	background-color: #2f4b93;
+	background-image: url('./../../media/gfx/social/facebook.png');
+	background-position: center;
+	background-size: 24px 24px;
+}
+footer .surround .social .twitter {
+	background-color: #00bdef;
+	background-image: url('./../../media/gfx/social/twitter.png');
+	background-position: center;
+	background-size: 24px 24px;
+}
+footer .surround .social a:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+
+/* - NO SCROLLER ------------------------------------------------------------ */
+.no-scroll {
+	overflow: hidden;
+	margin-right: 17px;
+}
+.no-scroll header nav {
+	margin-right: 42px;
+}
+.no-scroll footer p {
+	right: 17px;
+}
+
+
+/* - NO JS ------------------------------------------------------------------ */
+.no-js header nav {
+	display: block !important;
+}
+
+
+/* - FANCYBOX STYLES -------------------------------------------------------- */
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-outer,
+.fancybox-inner,
+.fancybox-image,
+.fancybox-wrap iframe,
+.fancybox-wrap object,
+.fancybox-nav,
+.fancybox-nav span,
+.fancybox-tmp {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	vertical-align: top;
+}
+.fancybox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8020;
+}
+.fancybox-skin {
+	position: relative;
+	background: #f9f9f9;
+	color: #444;
+	text-shadow: none;
+}
+.fancybox-opened {
+	z-index: 8030;
+}
+.fancybox-opened .fancybox-skin {
+	-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	   -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+.fancybox-outer, .fancybox-inner {
+	position: relative;
+}
+.fancybox-inner {
+	overflow: hidden;
+}
+.fancybox-type-iframe .fancybox-inner {
+	-webkit-overflow-scrolling: touch;
+}
+.fancybox-error {
+	color: #444;
+	font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 15px;
+	white-space: nowrap;
+}
+.fancybox-image, .fancybox-iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.fancybox-image {
+	max-width: 100%;
+	max-height: 100%;
+}
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+	background-image: url('./../../media/gfx/fancybox/fancybox_sprite.png');
+}
+#fancybox-loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -22px;
+	margin-left: -22px;
+	background-position: 0 -108px;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: 8060;
+}
+#fancybox-loading div {
+	width: 44px;
+	height: 44px;
+	background: url('./../../media/gfx/fancybox/fancybox_loading.gif') center center no-repeat;
+}
+.fancybox-close {
+	position: absolute;
+	top: -18px;
+	right: -18px;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	z-index: 8040;
+}
+.fancybox-nav {
+	position: absolute;
+	top: 0;
+	width: 40%;
+	height: 100%;
+	cursor: pointer;
+	text-decoration: none;
+	background: transparent url('./../../media/gfx/fancybox/blank.gif'); /* helps IE */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	z-index: 8040;
+}
+.fancybox-prev {
+	left: 0;
+}
+.fancybox-next {
+	right: 0;
+}
+.fancybox-nav span {
+	position: absolute;
+	top: 50%;
+	width: 36px;
+	height: 34px;
+	margin-top: -18px;
+	cursor: pointer;
+	z-index: 8040;
+	visibility: hidden;
+}
+.fancybox-prev span {
+	left: 10px;
+	background-position: 0 -36px;
+}
+.fancybox-next span {
+	right: 10px;
+	background-position: 0 -72px;
+}
+.fancybox-nav:hover span {
+	visibility: visible;
+}
+.fancybox-tmp {
+	position: absolute;
+	top: -99999px;
+	left: -99999px;
+	visibility: hidden;
+	max-width: 99999px;
+	max-height: 99999px;
+	overflow: visible !important;
+}
+.fancybox-lock {
+	overflow: hidden;
+}
+.fancybox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	display: none;
+	z-index: 8010;
+	background: url('./../../media/gfx/fancybox/fancybox_overlay.png');
+}
+.fancybox-overlay-fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+.fancybox-lock .fancybox-overlay {
+	overflow: auto;
+	overflow-y: scroll;
+}
+.fancybox-title {
+	visibility: hidden;
+	font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	position: relative;
+	text-shadow: none;
+	z-index: 8050;
+}
+.fancybox-opened .fancybox-title {
+	visibility: visible;
+}
+.fancybox-title-float-wrap {
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	margin-bottom: -35px;
+	z-index: 8050;
+	text-align: center;
+}
+.fancybox-title-float-wrap .child {
+	display: inline-block;
+	margin-right: -100%;
+	padding: 2px 20px;
+	background: transparent; /* Fallback for web browsers that doesn't support RGBa */
+	background: rgba(0, 0, 0, 0.8);
+	-webkit-border-radius: 15px;
+	   -moz-border-radius: 15px;
+	        border-radius: 15px;
+	text-shadow: 0 1px 2px #222;
+	color: #FFF;
+	font-weight: bold;
+	line-height: 24px;
+	white-space: nowrap;
+}
+.fancybox-title-outside-wrap {
+	position: relative;
+	margin-top: 10px;
+	color: #fff;
+}
+.fancybox-title-inside-wrap {
+	padding-top: 10px;
+}
+.fancybox-title-over-wrap {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	padding: 10px;
+	background: #000;
+	background: rgba(0, 0, 0, .8);
+}
+
+
+/* - RESPONSIVE ------------------------------------------------------------- */
+@media only screen and (max-width: 550px) { /* - Smartphone - */
+
+
+	/* - HEADER ------------------------------------------------------------- */
+	header nav {
+		clear: both;
+		display: none;
+		float: none;
+		height: auto;
+		margin: 0;
+	}
+	header nav ul {
+		height: auto;
+		min-height: 80px;
+		margin-bottom: 15px;
+		padding-top: 30px;
+	}
+	header nav ul li {
+		width: 50%;
+		text-align: center;
+	}
+	header .ident {
+		float: left;
+		height: 47px;
+		margin: 32px 0 0 10px;
+		width: 47px;
+	}
+	header #mobile-handle {
+		display: block;
+	}
+	header .made-in-ident {
+		height: 47px;
+		margin: 32px 0 0 10px;
+		width: 47px;
+	}
+	header .divisional {
+		right: 4px;
+		top: 90px;
+	}
+	header .divisional em {
+		margin-top: 1px;
+	}
+
+
+}
+@media only screen and (max-width: 768px) { /* - Tablet, Smartphone & Phone - */
+
+
+	/* - HEADER ------------------------------------------------------------- */
+	header {
+		top: 0;
+	}
+	header, .closure {
+		position: relative;
+	}
+
+
+	/* - CONTAINER ---------------------------------------------------------- */
+	.container {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+
+	/* - FOOTER ------------------------------------------------------------- */
+	footer .surround {
+		position: relative;
+	}
+	footer .surround p {
+		padding: 5px 65px 0 5px;
+		line-height: 1.8em;
+		text-align: left;
+	}
+
+
+}
+
+
+/* - RETINA ----------------------------------------------------------------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+
+	/* - HEADER ------------------------------------------------------------- */
+	header .ident {
+		background-image: url('./../../media/gfx/logo@2x.png');
+	}
+	header .made-in-ident {
+		background-image: url('./../../media/gfx/made-in-creative-pakistan@2x.png');
+	}
+	header #mobile-handle {
+		background-image: url('./../../media/gfx/mobile-handle@2x.png');
+	}
+	header .divisional em {
+		background-image: url('./../../media/gfx/game-turbine-logo@2x.png');
+	}
+
+
+	/* - FOOTER ------------------------------------------------------------- */
+	footer .surround .social .facebook {
+		background-image: url('./../../media/gfx/social/facebook@2x.png');
+	}
+	footer .surround .social .twitter {
+		background-image: url('./../../media/gfx/social/twitter@2x.png');
+	}
+
+
+}

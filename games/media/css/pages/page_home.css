@@ -1,0 +1,125 @@
+/* - PROJECTS --------------------------------------------------------------- */
+.projects .project {
+	background: #FFF;
+	display: none;
+	float: left;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 20%;
+	position: relative;
+	width: 20%;
+}
+.projects .cover-art {
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+.projects .even .title {
+	background: #FFF;
+}
+.projects .title {
+	background: #F1F1F1;
+	bottom: 0;
+	-webkit-box-shadow: 0 0 4px 1px rgba(0, 0, 0, .2);
+	box-shadow: 0 0 4px 1px rgba(0, 0, 0, .2);
+	font-weight: bold;
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	text-indent: 10px;
+	width: 100%;
+	z-index: 2;
+}
+
+
+/* - NO PROJECTS ------------------------------------------------------------ */
+.no-projects {
+	color: #999;
+	display: block;
+	font-size: 1.5em;
+	margin: 25% 5%;
+	text-align: center;
+	width: 90%;
+}
+
+
+/* - NO JS ------------------------------------------------------------------ */
+.no-js .projects .project {
+	display: block;
+}
+.no-js .projects .project:hover .cover-art {
+	opacity: 0.6;
+}
+.no-js .projects .project:hover .title {
+	text-decoration: underline;
+}
+
+
+/* - RESPONSIVE ------------------------------------------------------------- */
+@media only screen and (min-width: 1300px) { /* - Widescreen - */
+}
+@media only screen and (min-width: 768px) and (max-width: 1300px) { /* - Computer - */
+
+
+	/* - PROJECTS ----------------------------------------------------------- */
+	.projects .project {
+		padding-bottom: 25%;
+		width: 25%;
+	}
+
+
+}
+/*media only screen and (min-width: 480px) and (max-width: 768px) {*/ /* - Tablet - */
+@media only screen and (min-width: 321px) and (max-width: 768px) { /* - Tablet - */
+
+
+	/* - PROJECTS ----------------------------------------------------------- */
+	.projects .project {
+		padding-bottom: 33.3%;
+		width: 33.3%;
+	}
+
+
+	/* - PROJECTS: HOVERED/SELECTED ----------------------------------------- */
+	.projects .project .title {
+		bottom: 0;
+	}
+
+
+}
+/*@media only screen and (min-width: 225px) and (max-width: 480px) {*/ /* - Smartphone - */
+@media only screen and (min-width: 225px) and (max-width: 321px) { /* - Smartphone - */
+
+
+	/* - PROJECTS ----------------------------------------------------------- */
+	.projects .project {
+		padding-bottom: 50%;
+		width: 50%;
+	}
+
+
+	/* - PROJECTS: HOVERED/SELECTED ----------------------------------------- */
+	.projects .project .title {
+		bottom: 0;
+	}
+
+
+}
+@media only screen and (max-width: 225px) { /* - Phone - */
+
+
+	/* - PROJECTS ----------------------------------------------------------- */
+	.projects .project {
+		padding-bottom: 100%;
+		width: 100%;
+	}
+
+
+	/* - PROJECTS: HOVERED/SELECTED ----------------------------------------- */
+	.projects .project .title {
+		bottom: 0;
+	}
+
+
+}

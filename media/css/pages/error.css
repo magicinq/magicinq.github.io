@@ -1,0 +1,57 @@
+/* - DEFAULTS --------------------------------------------------------------- */
+.heading-divider {
+	border-bottom: 1px #ED1C24 solid;
+	clear: both;
+	padding-bottom: 5px;
+}
+
+
+/* - SPECIAL 404 PAGE ------------------------------------------------------- */
+.error-404 {
+}
+.error-404 .error-page-content {
+	height: 170px;
+	left: 50%;
+	margin: -85px 0 0 -325px;
+	position: absolute;
+	top: 50%;
+	width: 650px;
+}
+.error-404 h2 {
+	background: url('./../../../media/gfx/pages/error/game-turbine-404-error-logo.png');
+	height: 65px;
+	margin: 4px auto 0;
+	overflow: hidden;
+	padding: 0;
+	width: 300px;
+}
+.error-404 h2 a {
+	display: block;
+	height: 65px;
+	text-indent: -300px;
+	width: 300px;
+}
+.error-404 .error-text {
+	color: #969696;
+	font-size: 15px;
+	height: 50px;
+	line-height: 20px;
+	margin: 10px auto 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 280px;
+}
+.error-404 .return-home {
+	color: #5f5f60;
+	display: block;
+	font-size: 15px;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 250px;
+}
+.error-404 .return-home:hover {
+	color: #969696;
+}

@@ -1,0 +1,86 @@
+/* - DEFAULTS --------------------------------------------------------------- */
+.heading-divider {
+	border-bottom: 1px #ED1C24 solid;
+	clear: both;
+	padding-bottom: 5px;
+}
+
+
+/* - NEWS ITEMS ------------------------------------------------------------- */
+.news-items-container .news-item {
+	clear: both;
+	padding-top: 20px;
+}
+.news-items-container .news-item h3 {
+	margin: 0;
+}
+.news-items-container .news-item h3 a {
+	background: #CCC;
+	color: #FFF;
+	display: block;
+	font-size: 100%;
+	line-height: 130%;
+	padding: 2px 0 2px 5px;
+}
+.news-items-container .news-item h3 a:hover {
+	background: #BBB;
+	text-decoration: none;
+}
+.news-items-container .news-item .play-card {
+	float: left;
+	margin: 8px 10px;
+	min-height: 65px;
+	width: 50px;
+}
+.news-items-container .news-item .news-item-content {
+	float: left;
+	min-height: 100px;
+	margin-top: 8px;
+	padding-left: 10px;
+	width: 645px;
+}
+.news-items-container .news-item .news-item-content .date {
+	font-size: 110%;
+	font-weight: 700;
+	float: left;
+	margin: -1px 5px -3px 0;
+	position: relative;
+}
+.news-items-container .news-item .news-item-content p {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+
+/* - NEWS IMAGE ------------------------------------------------------------- */
+.news-items-container .news-imagery {
+	clear: both;
+	margin: 0 0 0 80px;
+}
+.news-items-container .news-imagery img {
+	border: 2px solid #FFF;
+	margin: 4px;
+	width: 150px;
+}
+.news-items-container .news-imagery img:hover {
+	border-color: #ED1C24;
+}
+
+
+/* - NEWS CONTROLS ---------------------------------------------------------- */
+.news-items-container .news-controls {
+	clear: both;
+	height: 45px;
+	margin: 0 0 0 80px;
+}
+.news-items-container .news-controls .facebook {
+	border: none;
+	height: 25px;
+	margin: 10px 0;
+	overflow: hidden;
+	width: 500px;
+}
+.news-items-container .news-controls .button {
+	float: right;
+	margin: 5px 0;
+}

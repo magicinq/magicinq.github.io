@@ -1,0 +1,59 @@
+/* - DIVISIONS -------------------------------------------------------------- */
+.division {
+	clear: both;
+	padding-top: 20px;
+}
+
+.division.first {
+	padding-top: 5px;
+}
+
+.division.last {
+	min-height: 140px;
+}
+
+.division h2 {
+	margin: 0;
+}
+.division h2 a {
+	background: #CCC;
+	color: #FFF;
+	display: block;
+	font-size: 80%;
+	padding: 2px 0;
+	text-indent: 5px;
+}
+.division h2 a:hover {
+	background: #BBB;
+	text-decoration: none;
+}
+.division .play-card {
+	float: left;
+	margin: 8px 10px;
+	min-height: 100px;
+	width: 50px;
+}
+.division .play-card img {
+	border: none;
+	outline: none;
+}
+.division .key-features {
+	float: left;
+	min-height: 100px;
+	margin-top: 3px;
+	padding-left: 20px;
+	max-width: 645px;
+}
+.division .key-features .category {
+	list-style: none;
+	margin-left: -17px;
+}
+
+.division .key-features .category h3 {
+	font-size: 110%;
+	margin: 0;
+	padding: 0;
+}
+
+.division .key-features .recent-items {
+}
