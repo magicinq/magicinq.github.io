@@ -7,6 +7,23 @@
 
 
 /* - SPECIAL 404 PAGE ------------------------------------------------------- */
+html {
+    background-image: url('./../../../media/gfx/pages/error/404.png');
+    background-size: cover;
+    -moz-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    min-height: 420px;
+    min-width: 320px;
+    
+    display: block;
+}
+
 .error-404 {
 }
 .error-404 .error-page-content {
