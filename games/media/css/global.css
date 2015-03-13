@@ -53,7 +53,7 @@ html {
 	overflow-y: scroll;
 }
 body {
-	background: #F1F1F1;
+	background: #a200d2;
 	color: #181818;
 	font-family: 'Open Sans', Tahoma, Arial, sans-serif;
 	font-size: 1.2em;
@@ -105,7 +105,8 @@ a:hover {
 /* - HEADER ----------------------------------------------------------------- */
 header {
 	background: rgb(254, 254, 254);
-	border-top: 8px #EB2126 solid;
+    background: #ffffff;
+	border-top: 8px #9800c5 solid;
 	-webkit-box-shadow: 0 1px 4px 1px rgba(0, 0, 0, .2);
 	box-shadow: 0 1px 4px 1px rgba(0, 0, 0, .2);
 	min-height: 112px;
@@ -173,7 +174,7 @@ header .divisional {
 	position: absolute;
 	right: 82px;
 	top: 80px;
-	width: 203px/*200px*/;
+	width: 210px/*200px*/;
 }
 header .divisional:hover {
 	color: #181818;
